@@ -1,0 +1,6 @@
+{application, gpg_couch, [
+    {description, "Validate OpenPGP signature of CouchDB documents."},
+    {vsn, git},
+    {registered, []},
+    {applications, [kernel, stdlib]}
+]}.
